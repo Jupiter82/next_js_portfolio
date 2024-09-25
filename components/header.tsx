@@ -18,7 +18,7 @@ export default function Header() {
           {links.map((items, index) => {
             return (
               <li
-                className="h-3/4 flex items-center justify-center"
+                className="h-3/4 flex items-center justify-center "
                 key={index}
               >
                 <Link
