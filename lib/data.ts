@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import primetvImg from "/_primetvhd.png";
-import legalcaseImg from "/legalcase.png";
-import maiwakholaImg from "/maiwakhola.png";
+import primetvImg from "../public/_primetvhd.png";
+import legalcaseImg from "../public/legalcase.png";
+import maiwakholaImg from "../public/maiwakhola.png";
 
 export const links = [
   {
