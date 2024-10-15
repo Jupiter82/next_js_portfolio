@@ -13,24 +13,27 @@ export default function About() {
       <SectionHeading></SectionHeading>
       <p className="mb-3">
         After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming.{" "}
+        <span className="font-medium">
+          BCA(Bachelor in Computer Application){" "}
+        </span>
+        , I decided to pursue my passion for programming.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
+        feeling of finally figuring out a solution to a problem.
+        {/* My core stack
         is{" "}
         <span className="font-medium">
           React, Next.js
-          {/* , Node.js, and MongoDB */}
-        </span>
+          , Node.js, and MongoDB
+        </span> */}
         I am always looking to learn new technologies. I am currently looking
         for a <span className="font-medium">full-time position</span> as a
-        software developer.
+        frontend software developer.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games and watching movies.
+        <span className="italic">When I&apos;m not coding</span>, I enjoy
+        playing video games and watching movies.
       </p>
     </motion.section>
   );
