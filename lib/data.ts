@@ -79,7 +79,7 @@ export const projectsData = [
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: "/maiwakhola.png",
   },
-];
+] 
 
 export const skillsData = [
   "HTML",
@@ -88,17 +88,18 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
+  // "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
+  "bootstrap",
+  // "Prisma",
+  // "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
+  // "GraphQL",
+  // "Apollo",
+  // "Express",
+  // "PostgreSQL",
+  // "Python",
+  // "Django",
   "Framer Motion",
 ] as const;
