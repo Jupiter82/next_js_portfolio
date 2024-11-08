@@ -6,7 +6,6 @@ import clsx from "clsx";
 import { links } from "@/lib/data";
 
 export default function Header() {
-  const [activeSection, setActiveSection] = useState("Home");
   return (
     <header className="z-[999] relative">
       <motion.div
@@ -26,21 +25,22 @@ export default function Header() {
               >
                 <Link
                   className={clsx(
-                    "flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition dark:text-gray-500 dark:hover:text-gray-300",
-                    {
-                      "text-gray-950 dark:text-gray-200":
-                        activeSection === items.name,
-                    }
+                    "flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition dark:text-gray-500 dark:hover:text-gray-300"
+                    // {
+                    //   "text-gray-950 dark:text-gray-200":
+                    //     activeSection === items.name,
+                    // }
                   )}
                   href={items.hash}
-                  onClick={() => setActiveSection(items.name)}
+                  // onClick={() => setActiveSection(items.name)}
                 >
                   {items.name}
 
                   {/* {items.name === activeSection ? (
                     <span className="bg-gray-100 rounded-full absolute inset-0 -z-10"></span>
                   ) : null} */}
-                  {items.name === activeSection && (
+                  {/* {items.name === activeSection && ( */}
+                  {
                     <motion.span
                       className="bg-gray-100 rounded-full absolute inset-0 -z-10"
                       layoutId="activeSection"
@@ -50,7 +50,7 @@ export default function Header() {
                         damping: 30,
                       }}
                     ></motion.span>
-                  )}
+                  }
                 </Link>
               </motion.li>
             );
