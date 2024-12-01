@@ -29,7 +29,7 @@ export default function ActiveSectionContextProvider({
   );
 }
 
-//seperate hook
+//seperate custom hook
 export function useActiveSectionContext() {
   const context = useContext(ActiveSectionContext);
 
