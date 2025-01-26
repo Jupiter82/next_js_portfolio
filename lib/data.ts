@@ -59,27 +59,62 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "likhutamakoshi.palikasoft.com",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: "/_primetvhd.png",
+      "This project includes modules for Parichaye Patra management (Senior Citizens, Persons with Disabilities, and Single Women), Darta Chalani, and Business Registration",
+    tags: ["React", "Next.js", "Redux", "Tailwind", "REST APIs"],
+    imageUrl: "/likhutamakosi.PNG",
+    href: "https://likhutamakoshi.palikasoft.com",
   },
   {
-    title: "rmtDev",
+    title: "likhupike.palikasoft.com",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: "/legalcase.png",
+      "Includes modules for Parichaye Patra, Darta Chalani, Planning ,Personal Information System (PIS), Legal Case,Project MS and Business Registration",
+    tags: ["React", "Next.js", "Redux", "Tailwind", "REST APIs"],
+    imageUrl: "/Likhupike.PNG",
+    href: "https://likhupike.palikasoft.com",
   },
   {
-    title: "Word Analytics",
+    title: "sdims-maiwakhola.palikasoft.com",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: "/maiwakhola.png",
+      "This project includes modules for Parichaye Patra management (Senior Citizens, Persons with Disabilities),Legal Case and Business Registration",
+    tags: ["React", "Next.js", "Redux", "Tailwind", "REST APIs"],
+    imageUrl: "/maiwakhola.PNG",
+    href: "https://sdims-maiwakhola.palikasoft.com",
   },
-] 
+  {
+    title: "manangngisyang.palikasoft.com",
+    description:
+      "This project includes modules for Parichaye Patra management (Senior Citizens, Persons with Disabilities) and Business Registration",
+    tags: ["React", "Next.js", "Redux", "Tailwind", "REST APIs"],
+    imageUrl: "/maiwakhola.PNG",
+    href: "https://manangngisyang.palikasoft.com",
+  },
+  {
+    title: "Communist Party Of Nepal",
+    description:
+      "Worked on frontend development, collaborated with PHP backend developers to integrate and enhance front-end functionality",
+    tags: ["Bootstrap", "JavaScript", "jquery"],
+    imageUrl: "/CPNMC.PNG",
+    href: "https://cpnmcbagmati.org.np",
+  },
+  {
+    title: "Lumbini Devlopment Trust",
+    description:
+      "Worked on frontend development, collaborated with PHP backend developers to integrate and enhance front-end",
+    tags: ["Bootstrap", "JavaScript", "jquery"],
+    imageUrl: "/Lumbini.PNG",
+    href: "https://lumbinidevtrust.gov.np",
+  },
+  {
+    title: "Digital Profile",
+    description:
+      "Worked on frontend development, collaborated with .NET backend developers to integrate and enhance front-end functionality",
+    tags: ["Bootstrap", "JavaScript", "jquery"],
+    imageUrl: "/DigitalProfile.PNG",
+    href: "http://digitalprofile-pratappur.palikaapps.com",
+  },
+];
 
 export const skillsData = [
   "HTML",
