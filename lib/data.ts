@@ -87,8 +87,32 @@ export const projectsData = [
     description:
       "This project includes modules for Parichaye Patra management (Senior Citizens, Persons with Disabilities) and Business Registration",
     tags: ["React", "Next.js", "Redux", "Tailwind", "REST APIs"],
-    imageUrl: "/maiwakhola.PNG",
+    imageUrl: "/MangNisyan.PNG",
     href: "https://manangngisyang.palikasoft.com",
+  },
+  {
+    title: "kantipur ride",
+    description:
+      "Worked on frontend development, collaborated with node.js backend developers to integrate and enhance front-end functionality",
+    tags: ["React", "Next.js", "Redux", "Tailwind", "REST APIs"],
+    imageUrl: "/kantipurride.PNG",
+    href: "https://kantipurride.com.np/",
+  },
+  {
+    title: "AmritKosh Prasutigriha",
+    description:
+      "Worked on frontend development, collaborated with node.js backend developers to integrate and enhance front-end functionality",
+    tags: ["React", "Next.js", "Redux", "Tailwind", "REST APIs"],
+    imageUrl: "/amritkosh.PNG",
+    href: "https://prasutigirha.vercel.app/",
+  },
+  {
+    title: "Hariyali Share",
+    description:
+      "Worked on frontend development, collaborated with node.js backend developers to integrate and enhance front-end functionality",
+    tags: ["React", "Next.js", "Redux", "Tailwind", "REST APIs"],
+    imageUrl: "/hariyali.PNG",
+    href: "https://share-hariyali.vercel.app/",
   },
   {
     title: "Communist Party Of Nepal",
